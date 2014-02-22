@@ -1,141 +1,139 @@
 <!doctype html>
 <html lang="en">
-
 	<head>
 		<meta charset="utf-8">
-
 		<title>NodeBots, assemble!</title>
+		<script src="js/zepto.js"></script>
+		<style>
 
-		<meta name="description" content="DESTROY ALL HUMANS!">
-		<meta name="author" content="NodeBots of London">
-
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
-
-		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-
-		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
-		<script>
-			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
-		</script>
-
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-
-		<style type="text/css">
-
-.johnny_five body {
-	background: url(img/johnny-five.png) no-repeat center bottom;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+body {
+	margin: 0;
+	padding: 0;
 }
 
-.haters body {
-	background: url(img/haters.gif) no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-.cowboy body {
-	background: url(img/johnny-5-is-cowboy.png) no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-.angry body {
-	background: url(img/johnny-5-is-hard.jpg) no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #000;
+	background-position: top center;
+	background-repeat: no-repeat;
 }
 
 		</style>
 	</head>
 
 	<body>
-
-		<div class="reveal">
-
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-				<section>
-					<h1>NodeBots<br />of<br />London</h1>
-					<p><small><a href="http://twitter.com/nodebotsuk">@nodebotsuk</a></small></p>
-				</section>
-
-				<section>
-					<h2>The plan</h2>
-					<ul>
-						<li>10:30 Start</li>
-						<li>13:00 Lunch</li>
-						<li>16:00 Demos</li>
-					</ul>
-				</section>
-
-				<section data-state="johnny_five">
-					
-				</section>
-
-				<section data-state="haters">
-					
-				</section>
-
-				<section data-state="cowboy">
-					
-				</section>
-
-				<section data-state="angry">
-					
-				</section>
-
-			</div>
-
+		<div style="background: url(img/barbara.png); background-size: auto 100%">
 		</div>
-
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.min.js"></script>
+		<div style="background: url(img/johnny-5-is-cowboy.png); background-size: 100% auto">
+		</div>
+		<div style="background: url(img/johnny-5-is-hard.jpg); background-size: 100% auto">
+		</div>
+		<div style="background: url(img/johnny-five.png) #f6dd25; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/attack.jpg) #fff7f4; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/elektro.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/commando.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/metal.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/goro.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/band.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/robbie.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/trainer.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/sdr.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/twenty-one.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/kobian.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/nao.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/robot.png) #fff; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/megatron.jpg) #fff; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/C3P0.jpg) #000; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/r2d2.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/metropolis.jpg) #000; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/bender.jpg) #fff; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/iron-giant.jpg) #000; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/jaegers.jpg) #000; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/cyberman.jpg) #000; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/robbie2.jpg) #FFF; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/robby-jolt.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/marvin.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/data.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/tbot.jpg) #2d2d2d; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/walle.jpg) #fff; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/ig88.jpg) #000; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/prime.jpg) #000; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/t800.jpg) #000; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/ed209.jpg) #000; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/gort.jpg) #000; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/roy-batty.jpg) #000; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/rachel.jpg) #000; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/cylon_replaced.jpg) #000; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/cylon2.jpg) #000; background-size: auto 100%">
+		</div>
+		<div style="background: url(img/robocop.jpg) #000; background-size: auto 100%">
+		</div>
 
 		<script>
 
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
+var time = 1000;
+var divs = $("div");
+var size = divs.length;
+var index = 0;
+var next = 0;
 
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+setInterval(function() {
+	divs.forEach(function(div) {
+		$(div).hide();
+	});
 
-				// Parallax scrolling
-				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-				// parallaxBackgroundSize: '2100px 900px',
+	while(true) {
+		var rand = Math.floor(Math.random() * (divs.length));
 
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-				]
-			});
+		if(rand != next) {
+			next = rand;
+
+			break;
+		}
+	}
+
+	$(divs[next]).show();
+}, time);
 
 		</script>
 
